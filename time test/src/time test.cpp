@@ -19,7 +19,7 @@ int main()
 
     strftime (buffer,20,"%F:%T",gmtime ( &t ));
 
-    string timestamp = "today is ";
+    string timestamp = "UTC time is ";
     timestamp += ':';
     timestamp += string(buffer);
 
